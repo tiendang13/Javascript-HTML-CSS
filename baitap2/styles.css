@@ -10,5 +10,36 @@ div#container {
 	background: #121214;
 	margin: 0 auto;
 	width: 1000px;
+	height:800px;
 	color: #797782;
+}
+.title{
+	margin-bottom: 30px;
+	padding-top: 20px;
+}
+.contain-left {
+	width: 470px;
+	margin-left: 30px;
+	margin-right: 50px;
+}
+.contain-right {
+	margin-left: 500px;
+	width: 500px;
+}
+
+.text{
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+h4{
+	margin-bottom:30px;
+	color: white;
+}
+.contain-box img{
+	width: 180px;
+	margin-right: 15px;
+	float: left;
+}
+.contain-box{
+	border-bottom: 1px dotted #3f3f41;
 }
