@@ -2,13 +2,61 @@
   margin: 0;
   padding: 0;
 }
+
 div#container {
 	width: 500px;
-	height: 500px;
+	height: 700px;
 	margin: 0 auto;
 	border: 1px solid #0033FF;
 }
+
 .title {
 	height: 25px;
 	background: url(image/title_bg.gif) repeat-x;
+}
+
+.title2 {
+	height: 25px;
+}
+
+.title3{
+	height: 35px;
+	text-align: center;
+}
+
+.info {
+	height: 100px;
+	margin-left: 100px;
+	margin-top: -90px;
+	overflow: scroll;
+	font-size: 18px;
+}
+
+
+.facts-content {
+	margin-left: 80px;
+	font-size: 18px;
+}
+.facts-content li{
+	list-style-image: url(image/star.png);
+}
+
+.post {
+	margin-top: 50px;
+	margin-left: 5px;
+}
+
+.post-content {
+	background: LightGray;
+}
+
+.post-info a {
+	text-decoration: none;
+}
+.post-info {
+	margin-left: 100px;
+}
+
+.comment {
+	font-size: 18px;
 }
