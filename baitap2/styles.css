@@ -5,12 +5,15 @@
 body {
 	font-family: arial;
 	font-size: 0.6875em;
+	word-spacing: 1px;
+	letter-spacing: 0.25px;
+	line-height: 20px;
 }
 div#container {
 	background: #121214;
 	margin: 0 auto;
 	width: 1000px;
-	height:800px;
+	height: 610px;
 	color: #797782;
 }
 .title{
@@ -23,8 +26,11 @@ div#container {
 	margin-right: 50px;
 }
 .contain-right {
-	margin-left: 500px;
-	width: 500px;
+	margin-left: 525px;
+	margin-top: -560px;
+	width: 250px;
+	height: 375px;
+	background: #232227;
 }
 
 .text{
@@ -32,8 +38,10 @@ div#container {
 	padding-bottom: 20px;
 }
 h4{
-	margin-bottom:30px;
 	color: white;
+}
+.text p{
+	margin-top:20px;
 }
 .contain-box img{
 	width: 180px;
@@ -42,4 +50,36 @@ h4{
 }
 .contain-box{
 	border-bottom: 1px dotted #3f3f41;
+	margin-bottom: 15px
+}
+a.more-info{
+	color: white;
+	text-decoration: none;
+}
+a.more-info:before {
+	content: url(Image/arr_1.gif);
+}
+.topic-2 {
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+a{
+	color: gray;
+}
+.list-right {
+	margin-left: 80px;
+}
+li {
+	list-style: none;
+}
+li:before {
+	content: url(Image/list2.gif);
+	margin-right:3px;
+}
+.box {
+	padding-left: 35px;
+	padding-top: 60px;
+}
+.white {
+	color: white;
 }
